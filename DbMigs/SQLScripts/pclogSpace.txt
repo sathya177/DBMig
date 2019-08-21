@@ -1,0 +1,12 @@
+﻿DECLARE	@result TABLE
+	(
+	  [Database_Name] VARCHAR(150) ,
+	  [Log_Size] FLOAT ,
+	  [Log_Space] FLOAT ,
+	  [Status] VARCHAR(100)
+	) 
+ 
+INSERT	INTO @result
+		EXEC ( 'DBCC sqlperf(LOGSPACE) WITH NO_INFOMSGS'
+			)
+ select * from @result

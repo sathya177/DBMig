@@ -1,0 +1,48 @@
+{
+  "environments": [
+    {
+      "id": 1,
+      "server": "Server 1",
+      "scriptPath": "C:\\Program Files (x86)\\sqldevops1\\Data\\",
+      "Databases": [
+        {
+          "name": "TESTDB",
+          "username": "*****",
+          "password": "******"
+        },
+        {
+          "name": "TESTDB",
+          "username": "*****",
+          "password": "******"
+        },
+        {
+          "name": "TESTDB",
+          "username": "*****",
+          "password": "******"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "server": "Server 2",
+      "scriptPath": "",
+      "Databases": [
+        {
+          "name": "TESTDB",
+          "username": "*****",
+          "password": "******"
+        },
+        {
+          "name": "TESTDB",
+          "username": "*****",
+          "password": "******"
+        },
+        {
+          "name": "TESTDB",
+          "username": "*****",
+          "password": "******"
+        }
+      ]
+    }
+  ]
+}

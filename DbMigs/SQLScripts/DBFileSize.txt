@@ -1,0 +1,1 @@
+﻿SELECT    SUM(size) * 8.0 / 1024.0 / 1024.0 AS SizeInGB FROM    sys.database_files;

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbMigs", "DbMigs\DbMigs.csproj", "{5631AA9C-12DC-4A61-B3A5-382667E2CFB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbMigs.Tests", "DbMigs.Tests\DbMigs.Tests.csproj", "{D1D9084C-E9B4-4BDE-B6C3-9AEDF4571C53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5631AA9C-12DC-4A61-B3A5-382667E2CFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5631AA9C-12DC-4A61-B3A5-382667E2CFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5631AA9C-12DC-4A61-B3A5-382667E2CFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5631AA9C-12DC-4A61-B3A5-382667E2CFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D9084C-E9B4-4BDE-B6C3-9AEDF4571C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D9084C-E9B4-4BDE-B6C3-9AEDF4571C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D9084C-E9B4-4BDE-B6C3-9AEDF4571C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D9084C-E9B4-4BDE-B6C3-9AEDF4571C53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACFC6E78-2064-4847-839A-2F692FEB1FB2}
+	EndGlobalSection
+EndGlobal

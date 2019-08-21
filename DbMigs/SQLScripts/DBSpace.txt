@@ -1,0 +1,2 @@
+﻿  SELECT CAST(SUM(allocated_extent_page_count * 8.0 / 1024. / 1024.) AS DECIMAL(18,6)) AS Allocated_GB
+FROM sys.dm_db_file_space_usage;
